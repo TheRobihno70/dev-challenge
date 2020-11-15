@@ -7,6 +7,9 @@ For some questions, you will have to inspect websites or web applications, other
 ## Q1: Advantages and Disadvantages of using React
 
 **Question:** What are the advantages and disadvantages of using React to develop web applications? Name 2 each.
+Advantages: One advantage of React is its testability, as it offers react's native tools for testing and debugging code. Another advantage is that react can be used with nearly any framework (i.e. angular.js) as it is only a view layer. This however could also be a disadvantage, as you still have to plug your code for events etc.
+Disadvantages: As React is a relatively new technology, it has a more or less poor documentation. However it is growing everyday. Another disadvantage is that I personally think that the learning curve is quite steep the more advanced you are. 
+
 
 **Response:** Write answer here.
 
@@ -25,6 +28,8 @@ _Why is it relevant:_ As you will inevitably work with some of our existing proj
 **Question:** Look at the course websites of the “Finance Weiterbildung” (e.g. <https://www.finance-weiterbildung.uzh.ch/de/programs/single-courses/angewandte-makrooekonomie.html>). This page uses an API to fetch data (e.g. ECTS-Credits etc.). What is the endpoint URL of this API?
 
 **Response:** Write answer here.
+The websites performs a GET request to following URL to get the data:
+https://www.finance-weiterbildung.uzh.ch/static/website/api/public/index.php/de/courses/angewandte-makrooekonomie
 
 _Why is it relevant:_ Almost all our apps and websites are built on a layered architecture, separating the view layer (frontend) from the data (data layer). The view layer is often implemented with a different technology, or even hosted separately, when compared to the data layer. It is important that you understand this concept and know how it can be applied.
 
@@ -40,6 +45,6 @@ _Why is it relevant:_ CI/CD has many advantages, which is why we are using it wh
 
 **Question:** What has been your favorite programming language / framework so far? Why do you like it and how does it compare to other technologies? What was the hardest challenge you have faced with that specific technology?
 
-**Response:** Write answer here.
+**Response:** My favourite programming language so far has to be java, closely followed by python. I mainly chose java because it's the language I have most experience in. Python is really close as python was my first programming language and python is really intuitive. However, after I learned java, I got used to use semicolons and seperate blocks of code not only with intendations but also with parenthesis, which in my opinion makes the code a bit more structured and readable. I like that java is somewhere in between Python and C. While Python has nearly too less syntax and C too much, I think java is a great middleway to combine the benefits of both. The hardest challenge I faced with java was probably in SoPra as we implemented an online version of the board game called dog. We had to persist everything into a database, and it took some time to get used to database handling in java but in the end we managed it.
 
 _Why is it relevant:_ Everybody has a favorite set of tools and technologies. We love to hear about other people‘s experiences to broaden our horizon.
