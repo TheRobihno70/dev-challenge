@@ -7,11 +7,9 @@ For some questions, you will have to inspect websites or web applications, other
 ## Q1: Advantages and Disadvantages of using React
 
 **Question:** What are the advantages and disadvantages of using React to develop web applications? Name 2 each.
-Advantages: One advantage of React is its testability, as it offers react's native tools for testing and debugging code. Another advantage is that react can be used with nearly any framework (i.e. angular.js) as it is only a view layer. This however could also be a disadvantage, as you still have to plug your code for events etc.
+
+**Response:** Advantages: One advantage of React is its testability, as it offers react's native tools for testing and debugging code. Another advantage is that react can be used with nearly any framework (i.e. angular.js) as it is only a view layer. This however could also be a disadvantage, as you still have to plug your code for events etc.
 Disadvantages: As React is a relatively new technology, it has a more or less poor documentation. However it is growing everyday. Another disadvantage is that I personally think that the learning curve is quite steep the more advanced you are. 
-
-
-**Response:** Write answer here.
 
 _Why is it relevant:_ Almost all of our web development projects at the DBF, especially new ones, are based on the React framework. As such, it is important to understand why we started using the framework, and what could be the challenges in using it.
 
